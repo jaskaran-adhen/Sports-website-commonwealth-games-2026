@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    nav h1 {
+      text-align: center;
+      font-size: 45px;
+      padding: 6px;
+      font-family: 'Lato', sans-serif;
+      font-weight: bolder;
+    }
+
+    nav {
+      background: #fff;
+      height: 64px;
+
+    }
+
+    .container {
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      padding-left: 12%;
+      padding-right: 12%;
+      padding-top: 0%;
+      box-sizing: border-box;
+      background-color: rgb(239, 241, 241);
+      margin-bottom: 100px;
+
+    }
+
+    .blank {
+      width: 250px;
+      height: 333px;
+      background-color: rgba(199, 189, 189, 0.09);
+      display: inline-block;
+      margin-left: 32px;
+      margin-top: 31px;
+      
+    }
+
+    .pic {
+      width: 222px;
+      height: 233px;
+      /* background-color: darkgoldenrod; */
+      margin: 14px;
+      transition: transform 0.5s;
+      margin-bottom: -7px;
+    }
+    .pic:hover{
+  transform: translateY(-10px);
+    }
+    .head {
+      width: 224px;
+      height: 66px;
+      background-color: #f4f0ece0;
+      margin: 13px;
+      letter-spacing: 1px;
+      text-align: center;
+      font-family: 'Heebo', sans-serif;
+
+    }
+    
+
+    .pic1 {
+
+      background-image: url(/images/neeraj\ chopra.jpg);
+      
+      background-size: cover;
+
+    }
+    .pic2 {
+
+background-image: url(/images/sam\ hickey2.png);
+
+background-size: cover;
+
+}
+.pic3 {
+
+background-image: url(/images/saina\ nehwal.jpg);
+
+background-size: cover;
+
+
+}
+
+.pic4 {
+
+background-image: url(/images/pv\ sindhu.jpg);
+
+background-size: cover;
+
+
+}
+
+.pic5 {
+
+background-image: url(/images/bajrang\ punia.png);
+
+background-size: cover;
+
+
+}
+.pic6 {
+
+background-image: url(/images/maro\ itoje.jpg);
+
+background-size: cover;
+
+
+}
+.pic7 {
+
+background-image: url(/images/patrick\ kane.jpg);
+
+background-size: cover;
+
+
+}
+.pic8 {
+
+background-image: url(/images/Sanket\ Sargar.jpg);
+
+background-size: cover;
+
+
+}
+.pic9 {
+
+background-image: url(/images/kyle\ chalmers.jpg);
+
+background-size: cover;
+
+
+}
+.pic10 {
+
+background-image: url(/images/harmeeet\ \ desai.jpg);
+
+background-size: cover;
+
+
+}
+.pic11{
+
+background-image: url(/images/emma\ mckeon.png);
+
+background-size: cover;
+
+
+}
+.pic12{
+
+background-image: url(/images/jhaniele\ flower\ -\ Copy.jpg);
+
+background-size: cover;
+
+}
+.many{
+text-align: right;
+padding: 23px;
+background-color: #eae3ef5b;
+margin: 12px;
+}
+.more{
+    font-family: 'Lato', sans-serif;
+
+}

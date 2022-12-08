@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+            *{
+                margin: 0;
+                padding: 0;
+            }
+           nav h1{
+                text-align:left;
+                font-size: 35px;
+                margin-left: 70px;
+          font-family: 'Lato', sans-serif;
+    
+            }
+            nav{
+                width: 100%;
+                background: rgba(45, 32, 32, 0.13); 
+                height: 55px;
+                padding-top: 3px;
+    
+
+            }
+            .container {
+  height: 100vh;
+  background-position: center;
+  padding-left: 19%;
+  padding-right: 19%;
+  padding-top: 2%;
+  padding-bottom: 20px;
+}
+        .wrapper {
+  padding: 40px;
+  background-color: #a300ff0a;
+  margin: 16px;
+}
+.wrapper p {
+  line-height: 27px;
+  font-size: 20px;
+  margin: 10px;
+  font-family: 'Lato', sans-serif;
+  
+}
+h2{
+    font-style: italic ;
+}
+.many{
+text-align: right;
+padding: 23px;
+background-color: #eae3ef5b;
+margin: 12px;
+}
+.more{
+    font-family: 'Lato', sans-serif;
+
+}
+.blank{
+    width: 100%;
+    height: 23px;
+}

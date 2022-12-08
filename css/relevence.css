@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+   
+}
+  
+  nav{
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 90px;
+   box-sizing: border-box;
+   background: rgba(0,0,0,0.6); 
+   /* border-bottom: 1px solid #fff; */
+
+  }
+
+  nav .logo{
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    color:#fff;
+  }
+  .container{
+    
+    width: 100%;
+    height: 100vh;
+  }
+  .picture img {
+  background-size: contain;
+  /* padding: 21px; */
+  width: 345px;
+   align-items: center;
+  /* padding-left: 77vh;
+  padding-top: 9%; 
+  height: 100px; */
+  padding-top: 9%; 
+}
+.picture {
+    width: 100%;
+    height: 270px;
+    background-color: darkgoldenrod;
+    text-align: center;
+}
+
+.relvence{
+    background-color: rgb(255, 254, 248);
+    width: 100%;
+    height:45px;
+    text-align: center;
+}
+.para{
+    background-color: rgb(240, 235, 244);
+    width: 100%;
+    height: 100vh;
+ 
+    color: black;
+}
+.para p{
+    margin-left: 16%;
+    margin-right: 16%;
+    padding-top: 4%;
+ line-height: 28px;   
+ font-size: 23px;
+ padding-bottom: 12px;
+}
+.last{
+    background-color: coral;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    padding-top: 12px;
+    
+
+}
+.blank{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(240, 235, 244);
+}

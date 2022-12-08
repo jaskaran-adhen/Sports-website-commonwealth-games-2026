@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+    }
+   nav h1{
+        text-align: center;
+        font-size: 35px;
+        
+  font-family: 'Lato', sans-serif;
+
+    }
+    nav{
+        background: rgba(243, 239, 239, 0.22); 
+        height: 55px;
+        padding-top: 3px;
+
+    }
+    .container {
+width: 100%;
+height: 100%;
+background-position: center;
+background-size: cover;
+padding-left: 6%;
+padding-right: 6%;
+padding-top: 2%;
+padding-bottom: 20px;
+
+
+    }
+      .blank {
+width: 410px;
+height: 300px;
+background-color: #09050c08;
+display: inline-block;
+margin-left: 32px;
+margin-top: 31px;
+align-items: center;
+}
+.pic {
+width: 382px;
+height: 233px;
+margin: 14px;
+transition: transform 0.5s;
+}
+.pic:hover{
+transform: translateY(-10px);
+}
+.heading {
+width: 290px;
+height: 21px;
+
+margin: 13px;
+font-size: 13px;
+font-family: 'Heebo', sans-serif;
+}
+.pic1{
+background-image: url(/images/Flag_of_India.svg.webp);
+background-size: cover;
+}
+.pic2{
+background-image: url(/images/Flag_of_Anguilla.svg.png);
+background-size: cover;
+}
+
+.pic3{
+background-image: url(/images/Flag_of_Australia_\(converted\).svg.png);
+background-size: cover;
+}
+
+.pic4{
+background-image: url(/images/Flag_of_Jamaica.svg.png);
+background-size: cover;
+}
+
+.pic5{
+background-image: url(/images/Flag_of_Bangladesh.svg.png);
+background-size: cover;
+}
+
+.pic6{
+background-image: url(/images/Flag_of_Bermuda.svg.png);
+background-size: cover;
+}
+
+.pic7{
+background-image: url(/images/Flag_of_Wales.svg.png);
+background-size: cover;
+}
+
+.pic8{
+background-image: url(/images/Flag_of_Canada_\(Pantone\).svg.png);
+background-size: cover;
+}
+
+.pic9{
+background-image: url(/images/Flag_of_Cyprus.svg.png);
+background-size: cover;
+}
+
+.pic10{
+background-image: url(/images/Flag_of_Kenya.svg.png);
+background-size: cover;
+}
+
+.pic11{
+background-image: url(/images/Flag_of_Malaysia.svg.png);
+background-size: cover;
+}
+
+.pic12{
+background-image: url(/images/Flag_of_Pakistan.svg.webp);
+background-size: cover;
+}
+
+.pic13{
+background-image: url(/images/Flag_of_Singapore.svg.webp);
+background-size: cover;
+}
+
+.pic14{
+background-image: url(/images/Flag_of_South_Africa.svg.png);
+background-size: cover;
+}
+
+.pic15{
+background-image: url(/images/Flag_of_Tanzania.svg.png);
+background-size: cover;
+}
+.many{
+text-align: right;
+padding: 23px;
+background-color: #eae3ef5b;
+margin: 12px;
+}
+.more{
+font-family: 'Lato', sans-serif;
+
+}
+
+
+footer{
+height:12vh;
+background-color:rgba(0,0,0,0.9);
+color:rgb(250, 250, 251);
+font-family: 'Source Sans Pro', sans-serif;
+}
+.flex-all-center{
+display: flex;
+justify-content: center;
+align-items: center;
+}

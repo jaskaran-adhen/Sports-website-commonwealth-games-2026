@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+   
+   
+}
+  
+  nav{
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 90px;
+   box-sizing: border-box;
+   background: rgba(0,0,0,0.6); 
+   /* border-bottom: 1px solid #fff; */
+   z-index: 1;
+
+  }
+
+  nav .logo{
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    color:#fff;
+  }
+
+  nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+  }
+
+  nav ul li a{
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  nav ul li a:hover{
+    background-color: maroon;
+    border-radius: 7px;
+  }
+footer{
+    height:12vh;
+    background-color:rgba(0,0,0,0.9);
+    color:rgb(250, 250, 251);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.flex-all-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/images/back.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  box-sizing: border-box;
+}
+
+.row{
+  display: flex;
+  height: 88%;
+  align-items:flex-end;
+
+}
+.col{
+  flex-basis: 50%;
+
+}
+.jas{
+  flex-basis: 50%;
+  padding: 0px 134px;
+
+}
+h1{
+  color: #fff;
+  font-size: 100px;
+
+}
+p{
+  color: #fff;
+  font-size: 16px;
+  line-height: 15px;
+}
+button{
+  width: 200px;
+  color: #000;
+  font-size: 13px;
+  padding: 12px 0;
+  background: #fff;
+  border: 0;
+  border-radius:20px ;
+  outline: none;
+  margin-top: 30px;
+  transition: all 0.5s;
+  cursor: pointer;
+  height: 52px;
+  text-decoration: none;
+}
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  font-size: 22px;
+}
+
+button span:after {
+
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.card{
+  
+  width: 230px;
+  height: 260px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-image: url(/images/c.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+}
+.card:hover{
+  transform: translateY(-10px);
+  
+}
+.card1{
+  background-image: url(/images/ballarat1.jpg);
+  font-size: 23px;
+}
+.card2{
+  background-image: url(/images/geelong.jpg);
+  font-size: 23px;
+}
+.card3{
+  background-image: url(/images/gippsland.jpg);
+  font-size: 23px;
+}
+.card4{
+  background-image: url(/images/bendigo.jpg);
+  font-size: 23px;
+}
+/* .card5{
+  background-image: url(/images/e.jpg);
+}
+.card6{
+  background-image: url(/images/d.jpg);
+} */
+.common{
+  width: auto;
+height: auto;
+padding-left: 8%;
+padding-right: 8%;
+
+}
+.common h1{
+  color: rgb(13, 12, 12);
+  font-size: 38px;
+padding: 17px;
+justify-content: center;
+display: flex
+}
+.common p {
+  color: rgb(8, 8, 8);
+  padding: 18px;
+  font-size: 21px;
+  line-height: 30px;
+}
+.wealth{
+  background-color: rgb(231, 18, 18);
+}
+.common h2{
+  padding: 12px;
+  font-size: 40px;
+}
+.common h3{
+  padding: 3px;
+  font-size: 25px;
+  line-height: 13px;
+}
+.common h3 ul li {
+padding-left: 12px;
+}
+
+.venue li{
+  font-size: 19px;
+}
